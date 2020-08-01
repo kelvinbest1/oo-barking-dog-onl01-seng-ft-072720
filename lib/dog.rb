@@ -1,9 +1,7 @@
+# Your code goes here!
 class Dog
-def bark
-  puts "Woof!"
-end
+  attr_accessor :name
 
-def sit
-  puts "The Dog is sitting"
-end
-end
+  def bark
+    puts "woof!"
+  end
